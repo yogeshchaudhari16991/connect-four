@@ -1,5 +1,5 @@
 import React from 'react';
-import Board from './Components/Board'
+import Board from './components/board'
 
 class ConnectFour extends React.Component {
   render() {
