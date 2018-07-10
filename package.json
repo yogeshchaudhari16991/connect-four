@@ -1,5 +1,9 @@
 {
   "name": "connect-four",
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/yogeshchaudhari16991/connect-four"
+  },
   "version": "0.1.0",
   "private": true,
   "dependencies": {

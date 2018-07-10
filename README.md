@@ -21,3 +21,8 @@ Simple Connect Four Game using React
 - Currenlty app can be run using following npm script
     `npm run start`
 - Visit localhost:3000 in your browser's window
+
+# Roadmap
+- Add testing
+- Add eslint
+- Add glamorous
