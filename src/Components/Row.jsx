@@ -7,7 +7,7 @@ class Row extends React.Component {
       const Row = this.props.row.map(
         (cell, i) => {
           return (<Cell key={i} value={cell} columnIndex={i} addToken={this.props.addToken} 
-                player1={this.props.player1} player2={this.props.player2} />);
+                  player1={this.props.player1} player2={this.props.player2} />);
         }
       );
       return (
