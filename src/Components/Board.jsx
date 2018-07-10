@@ -50,15 +50,15 @@ class Board extends React.Component {
     }
       
     checkForWinner(board) {
-      let result = this.isGameDraw(board);
+      let result = this.verifyRow(board);
       if (! result) { 
         result = this.verifyColumn(board);
       }
       if (! result) {
-        result = this.verifyRow(board);
+        result = this.verifyDiagonal(board);
       }
       if (! result) {
-        result = this.verifyDiagonal(board);
+        result = this.isGameDraw(board);
       }
       return result;
     }
