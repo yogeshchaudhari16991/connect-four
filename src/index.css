@@ -48,27 +48,6 @@ table {
   cursor: pointer;
 }
 
-.circle {
-  height: 15px;
-  width: 15px;
-  border: 1px solid black;
-  border-radius: 100px;
-}
-
-.circles {
-  margin: -40px 0 25px 0;
-  display: flex;
-  justify-content: center;
-}
-
-.red-sm {
-  background-color: red;
-}
-
-.black-sm {
-  background-color: black;
-}
-
 .message {
   text-align: center;
   font-size: 17px;

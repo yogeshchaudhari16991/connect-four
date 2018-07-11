@@ -22,7 +22,7 @@ class Board extends React.Component {
     let board = this.state.board;
     if (! this.state.gameOver) {
       for (let rowNumber = 5; rowNumber >= 0; rowNumber--) {
-        if (!board[rowNumber][columnIndex]) {
+        if (! board[rowNumber][columnIndex]) {
             board[rowNumber][columnIndex] = this.state.currentPlayer;
             break;
         }

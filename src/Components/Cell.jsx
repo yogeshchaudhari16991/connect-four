@@ -12,11 +12,9 @@ class Cell extends React.Component {
     }
       
     return (
-      <td>
-        <div className='cell' onClick={() => {this.props.addToken(this.props.columnIndex)}} >
-          <div className={color} ></div>
-        </div>
-      </td>
+      <div className='cell' onClick={() => {this.props.addToken(this.props.columnIndex)}} >
+        <div className={color} ></div>
+      </div>
     );
   }
 

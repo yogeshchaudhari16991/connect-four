@@ -6,8 +6,12 @@ class Row extends React.Component {
   render() {
     const Row = this.props.row.map(
       (cell, i) => {
-        return (<Cell key={i} value={cell} columnIndex={i} addToken={this.props.addToken} 
-                player1={this.props.player1} player2={this.props.player2} />);
+        return (
+        <td key={i}>
+          <Cell value={cell} columnIndex={i} addToken={this.props.addToken} 
+                  player1={this.props.player1} player2={this.props.player2} />
+        </td>
+        );
       }
     );
     return (
